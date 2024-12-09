@@ -1,4 +1,24 @@
+## 安装方式
+
+clone本仓库代码到ros工作空间中
+
+编译
+
+```bash
+catkin_make
+source devel/setup.sh
+```
+
+运行
+
+```bash
+roslaunch astar_path_planner astar_planner.launch
+```
+
+当编译无报错、rviz显示随机生成圆柱障碍物和绿色直线初始路径时表明编译安装成功
+
 ## 任务一
+
 在src文件夹下的astar_planner中替换Step1～3的内容，实现随机生成的地图上的A*路径规划。
 
 ## 任务二
